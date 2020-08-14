@@ -9,6 +9,9 @@ use Illuminate\Http\Request;
 use Laravel\Nova\Fields\BelongsTo;
 use Laravel\Nova\Fields\DateTime;
 use Laravel\Nova\Fields\ID;
+use Laravel\Nova\Fields\MorphedByMany;
+use Laravel\Nova\Fields\MorphTo;
+use Laravel\Nova\Fields\MorphToMany;
 use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Fields\Textarea;
 use Laravel\Nova\Resource as NovaResource;
@@ -32,7 +35,7 @@ class Category extends NovaResource
         return [
             ID::make()
                 ->sortable(),
-            Text::make("Title"),
+            Text::make("Name"),
             Textarea::make("Description"),
         ];
     }

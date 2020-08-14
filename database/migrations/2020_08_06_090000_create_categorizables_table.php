@@ -9,6 +9,7 @@ class CreateCategorizablesTable extends Migration
     public function up()
     {
         Schema::create('categorizables', function (Blueprint $table) {
+            $table->id();
             $table->unsignedBigInteger("category_id");
             $table->unsignedBigInteger("categorizable_id");
             $table->text("categorizable_type");

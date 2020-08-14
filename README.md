@@ -15,6 +15,11 @@ composer require genealabs/laravel-nova-categories
 ```
 
 ## Configuration
+### Migrations
+```
+php artisan vendor:publish --provider="GeneaLabs\\LaravelNovaCategories\\Providers\\Service" --tag=migrations
+```
+
 TBA
 - migration overrides
     - disabling migrations
