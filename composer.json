@@ -20,7 +20,7 @@
         "genealabs/laravel-overridable-model": "*@dev",
         "illuminate/support": "^8.0",
         "laravel/nova": "^3.9",
-        "php": "^7.3",
+        "php": "^8.0",
         "symfony/thanks": "^1.2"
     },
     "autoload": {
