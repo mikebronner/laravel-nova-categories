@@ -18,9 +18,9 @@
     ],
     "require": {
         "genealabs/laravel-overridable-model": "*",
-        "illuminate/support": "^9.0",
-        "laravel/nova": "^3.9",
-        "php": "^8.0",
+        "illuminate/support": "^10.0",
+        "laravel/nova": "^4.0",
+        "php": "^8.2",
         "symfony/thanks": "^1.2"
     },
     "autoload": {
