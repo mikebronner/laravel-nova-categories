@@ -3,7 +3,7 @@ Drop-in Categories for your Laravel apps with a Nova admin dashboard.
 
 ## Requirements
 - PHP 7.3+
-- Laravel 7.x
+- Laravel 7.x - 13.x
 - Laravel Nova 3.x
 - TailwindCSS 1.6+
 - TailwindUI 0.4+
