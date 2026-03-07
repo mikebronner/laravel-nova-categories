@@ -1,13 +1,19 @@
 # laravel-nova-categories
 Drop-in Categories for your Laravel apps with a Nova admin dashboard.
 
+## Supported Versions
+
+| Laravel | PHP     | Nova  |
+|---------|---------|-------|
+| 10.x    | 8.2+    | 4.x / 5.x |
+| 11.x    | 8.2+    | 4.x / 5.x |
+| 12.x    | 8.2+    | 4.x / 5.x |
+| 13.x    | 8.2+    | 4.x / 5.x |
+
 ## Requirements
-- PHP 7.3+
-- Laravel 7.x
-- Laravel Nova 3.x
-- TailwindCSS 1.6+
-- TailwindUI 0.4+
-- Tailwind Typography 0.2+
+- PHP 8.2+
+- Laravel 10.x – 13.x
+- Laravel Nova 4.x or 5.x
 
 ## Installation
 ```sh
